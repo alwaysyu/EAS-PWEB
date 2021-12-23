@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap');
+
+.formContainer {
+    margin-right: auto;
+    margin-left: auto;
+    width: 1000px;
+    background-color: #f2f5f5;
+    border-radius: 20px;
+    height: auto;
+    padding: 30px;
+  }
+  
+  label {
+    font-family: Work-Sans;
+  }
+
+  body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  h1 {
+    text-align: center;
+    font-family: Work-Sans;
+    font-weight: bolder;
+    /* color: #013880; */
+    color: #000000;
+  }
+  
+  h3 {
+    text-align: center;
+    font-family: Work-Sans;
+    font-weight: bolder;
+    color: #013880;
+  }
+  
+  h2 {
+    text-align: center;
+    font-family: Work-Sans;
+    font-weight: bolder;
+    color: #013880;
+  }
+
+  p {
+    font-family: Work-Sans;
+  }
+  
+  .reset
+  {
+    font-family: Work-Sans;
+    font-style: italic;  
+    color:#000000;
+    text-decoration:none;    
+    float:left; 
+    /* font-size:12px; */
+    padding-top: 1px;
+    text-align:right;
+    width:100%;
+    /* border:1px solid black; */
+  }
+
+  .resetBtn
+  {
+    font-family: Work-Sans;  
+    color:#000000;
+    text-decoration:none;    
+    float:left; 
+    /* font-size:12px; */
+    text-align:center;
+    width:100%;
+    /* border:1px solid black; */
+  }
+
+  header {
+    background-color: #f2f5f5;
+  }
+  
+  header img {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 60px;
+  }
+  
+  footer {
+    /* background-color: #013880; */
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  footer h6 {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: rgb(3, 3, 3);
+    font-family: Georgia;
+    font-weight: bold;
+  }
+  
+  .btn-primary { /* text pd btn*/
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    background-color: #C4C4C4;
+    border-color: #C4C4C4;
+  }
+  
+  .btn-primary:hover {
+    color: whitesmoke;
+    background-color: #f39c12;
+    border-color: #f39c12;
+  }
+  
+  label {
+    font-weight: normal;
+  }
+  
+  .form-group {
+    margin: 5px 0px 5px 0px;
+  }
+  
+  #prevLink {
+    text-align: center;
+    font-family: Work-Sans;
+    font-weight: 400;
+    color: #013880;
+  }
